@@ -1,0 +1,11 @@
+(module Anderson:APP-staple-Nx4 (layer F.Cu) (tedit 53FCFA03)
+  (tags "Anderson Powerpole PCB staple Nx4")
+  (fp_text reference S** (at 0 -0.8) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value APP-staple-Nx4 (at 0 1.6) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at -15.25 0) (size 1 1) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 15.25 0) (size 1 1) (drill 1) (layers *.Cu *.Mask F.SilkS))
+)
